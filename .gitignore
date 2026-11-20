@@ -2,12 +2,16 @@
 .godot/
 *.translation
 
-# Android build outputs & caches
-build/
+# Root export output directory
+/build/
 *.apk
 *.aab
+
+# Gradle build output, caches and Godot engine binaries (>100MB)
 android/build/build/
 android/build/.gradle/
+.gradle/
+android/build/libs/
 android/build/local.properties
 android/build/src/main/assets/
 android/build/src/instrumented/assets/
